@@ -20,6 +20,8 @@ return [
             'storage_path'=>env('LOGVIEWER_STORAGE_PATH', storage_path('logs')),
         ],
 
+
+
         'user'=>[
             'user'=>'',
             'password'=>'',
