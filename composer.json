@@ -1,0 +1,28 @@
+{
+    "name": "faed/logs",
+    "description": "读取laravel日志",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "faed",
+            "email": "327399770@qq.com"
+        }
+    ],
+
+    "require": {
+        "laravel/framework": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Faed\\Logs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Faed\\Logs\\LogsServiceProvider"
+            ]
+        }
+    }
+}
