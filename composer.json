@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Faed\\Logs\\LogsServiceProvider"
+                "Faed\\Logs\\LogViewServiceProvider"
             ]
         }
     }
